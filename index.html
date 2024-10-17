@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YasserZ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#e8e3d3] text-[#333] text-center flex flex-col min-h-screen">
+    
+    <!-- About Me Section -->
+    <section class="aboutMe bg-[#2d2d2d] text-[#faf3dd] flex flex-col md:flex-row items-center justify-center gap-5 p-5 w-full grow">
+      <img src="./img/Profile.png" alt="Perfil" class="w-[150px] md:w-[250px] rounded-full">
+      <div class="text text-center md:text-left text-lg">
+        <h2 class="text-2xl font-bold">Yasser Zuaki</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui at est, incidunt obcaecati necessitatibus odio molestiae, ipsum unde enim voluptates praesentium hic quaerat vitae, sapiente illo velit ducimus. Sequi, corrupti. Lorem ipsum.</p>
+      </div>
+    </section>
+
+    <!-- Header -->
+    <header class="bg-[#2d2d2d] w-full">
+      <nav>
+        <ul class="flex justify-center space-x-8 md:space-x-4 py-2 text-[#faf3dd] font-bold">
+          <li><a href="#" class="hover:text-[#8a0303]">Sobre mi</a></li>
+          <li><a href="#" class="hover:text-[#8a0303]">Projectes</a></li>
+          <li><a href="#" class="hover:text-[#8a0303]">Contacte</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Projectes Section -->
+    <h2 class="text-2xl mt-4 font-bold">Projectes</h2>
+    <section class="Projectes grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5">
+      <div class="bg-[#faf3dd] p-4 text-center border-2 border-[#333]">
+        <img src="./img/ProjectIMG1.jpg" alt="Projecte 1" class="w-full">
+        <p>Projecte enfocat al BackEnd. Gestió de login, register + usuaris</p>
+      </div>
+      <div class="bg-[#faf3dd] p-4 text-center border-2 border-[#333]">
+        <img src="./img/ProjectIMG2.jpg" alt="Projecte 2" class="w-full">
+        <p>Projecte enfocat al FrontEnd. Gestió de disseny mitjançant Gestalt</p>
+      </div>
+      <div class="bg-[#faf3dd] p-4 text-center border-2 border-[#333]">
+        <img src="./img/ProjectIMG3.jpg" alt="Projecte 3" class="w-full">
+        <p>Projecte preparat per un cinema, on poden gestionar pelis i vendre entrades</p>
+      </div>
+    </section>
+
+    <!-- Contacte Section -->
+    <section class="contacte bg-[#2d2d2d] text-[#e8e3d3] p-4 grow">
+      <h2 class="text-2xl font-bold">Contacte</h2>
+      <div class="info mt-2">
+        <p>Si necesites més informació, no dubtis en contactarme</p>
+        <p><b><span class="text-[#8a0303]">Email:</span></b> yasser.zuaki@cirvianum.cat</p>
+        <p><b><span class="text-[#8a0303]">Telèfon:</span></b> 123 456 789</p>
+      </div>
+    </section>
+  </body>
+</html>
